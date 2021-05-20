@@ -75,7 +75,7 @@ if ($code_status) {
         //Añadir usuario el grupo www-data para tener acceso a los archivos en "files"
         `sudo usermod -a -G www-data {$username}`;
         
-        echo '<br>Usuario creado correctamente, pulsa <a href="http://http://54.174.128.31/nextcloud/" class="alert-link"> aqui</a> para acceder al sitio "fileON" con su usuarios y contraseña</div>';
+        echo '<br>Usuario creado correctamente, pulsa <a href="https://fileon.ddns.net/nextcloud/" class="alert-link"> aqui</a> para acceder al sitio "fileON" con su usuarios y contraseña</div>';
     }
     $created = 1;
 } else {
@@ -94,27 +94,7 @@ if (!$conn->query($sql) === true) {
 $conn->close();
 
 
-
-
-
-
-
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </div>
