@@ -59,7 +59,8 @@ if ($code_status) {
     `sudo su -s /bin/sh www-data -c 'php /var/www/nextcloud/occ user:setting "'$username'" settings email "'$email'" '`;
     `sudo su -s /bin/sh www-data -c 'php /var/www/nextcloud/occ user:setting "'$username'" files quota "'$quota'"GB '`;
     if ($is_admin == 1) {
-        `sudo su -s /bin/sh www-data -c 'php occ group:adduser admin "'$username'"'`;
+        `sudo su -s /bin/sh www-data -c 'php /var/www/nextcloud/occ group:adduser admin "'$username'"'`;
+
     }
     if ($is_ftp) {
         //Usuario FTP
