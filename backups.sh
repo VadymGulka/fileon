@@ -4,3 +4,7 @@ tar --exclude=/var/datacloud/appdata* -zcvf /var/backups/fileonbackups/full.tar.
 
 
 mega-backup /var/backups/fileonbackups /fileon_backups --period="0 0 0 * * *" --num-backups=3
+
+
+
+
