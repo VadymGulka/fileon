@@ -2,9 +2,6 @@
 ## Mega.nz
 - hojohi2837@itwbuy.com
 - hojohi2837
-## DAFO
-https://educantabria-my.sharepoint.com/:b:/g/personal/vgulka01_educantabria_es/ER1yQc3VAy1ItJGKCBNRltoBLZy_0374OuqNfLCOT8Slvg?e=A4uOj3
-nipatak531@relumyx.com
 
 ## Docs
 - https://httpd.apache.org/docs/2.4/
